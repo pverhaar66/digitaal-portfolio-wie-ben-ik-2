@@ -1,6 +1,7 @@
 
+/*================ Global ========================*/
 body {
-    background-image: url("images/FFXIV.jpg");
+    background-image: url("images/konan2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -33,7 +34,7 @@ main {
 }
 
 article { 
-		background-color: black;
+		
 		color: white;
 		border-style: solid;
 		border-width: 2px;
@@ -45,6 +46,7 @@ article {
 
 
 }
+/* ============= main page =============== */
 
 #header {  
  			height: 40%;
@@ -54,12 +56,14 @@ article {
  			padding: 20px auto 20px auto;
 }
 
+.text {
+    height: 400px;
+    background-color: none;
+    background-image: url("images/latinini.jpg");
 
-.cv {
-    width: 500px;
-    padding: 50px;  
-    text-align: left;
 }
+
+/* ============== opdrachten =================== */
 
 .voorbeeld {
     height: 218px;
@@ -69,6 +73,13 @@ article {
     flex-direction: row;
 }
 
+.img{
+    position: absolute;
+    top: 0px;
+    left: 0px;  
+}
+
+
 .htext{
     position: absolute;
     top: -60px;
@@ -77,11 +88,17 @@ article {
 
 }
 
-.img{
-    position: absolute;
-    top: 0px;
-    left: 0px;  
+/* ============== Curriculum Vitae =================== */
+
+.cv {
+    width: 500px;
+    padding: 50px;  
+    text-align: left;
+    background-image: url("images/latinini2.jpg");
 }
+
+/* ============== drop down menu =================== */
+
 
 .dropbtn {
     background-color: #4CAF50;
