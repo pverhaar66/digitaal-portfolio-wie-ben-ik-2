@@ -1,7 +1,7 @@
 
 /*================ Global ========================*/
 body {
-    background-image: url("images/konan2.jpg");
+    background-image: url("images/konnan.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -75,22 +75,38 @@ article {
     height: 218px;
     width: 400px;
     margin-top: 50px;
+    margin-bottom: 120px;
     position: relative;
     flex-direction: row;
+    z-index: 3;
 }
 
-.img{
+.img {
     position: absolute;
     top: 0px;
-    left: 0px;  
+    left: 0px;
 }
 
 
-.htext{
+.htext {
     position: absolute;
     top: -60px;
     z-index: 1;
     color: black;   
+
+
+}
+
+.ptext {
+    position: absolute;
+    top: 220px;
+    widows: 400px;
+    border: solid 2px black;
+    z-index: 2;
+    display: block;
+    background-color: grey;
+    color: white;
+
 
 }
 
